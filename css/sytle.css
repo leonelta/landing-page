@@ -16,6 +16,40 @@ nav{
 }
 
 nav ul{
-    display: inline-block;
+    display: inline-flex;
+    list-style-type: none;
+}
+
+nav ul li{
+    display: inline-flex;
+    margin-right: 20px;
+}
+
+a{
+    text-decoration: dashed;
+    color: darkolivegreen;
+}
+
+.header{
+    background-color: black;
+    padding: 30px;
+}
+.container{
+    max-width: 1400px;
+    margin: auto;
     
+}
+.main{
+    padding: 300px 20px;
+}
+
+p{
+    color:rgba(255, 255, 255, 0.021);
+    left: 50;
+    text-indent: 20px;
+}
+
+.btn{
+    display: inline-block;
+    ba
 }
